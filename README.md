@@ -41,28 +41,42 @@ The Corvit Chatbot is designed to:
 
 ## Project Structure
 
-corvit-chatbot/
-│── app.py # Main Streamlit app
-│── auth.py # User authentication
-│── chat_handler.py # Chatbot response logic
-│── model_inference.py # Model loading & inference
-│── preprocess_input.py # Language detection & translation
-│── requirements.txt # Dependencies
-│── .env.example # Environment template
-│── .gitignore # Ignored files
-│
-├── utils/ # Helper modules
-│ ├── event_utils.py
-│ ├── chat_utils.py
-│ ├── history_utils.py
-│ ├── recommendation_utils.py
-│ └── suggested_qna.py
-│
-├── model/ # Config files (no weights included)
-├── retriever/ # FAISS retriever config (no index included)
-├── css/ # Stylesheets
-├── images/ # Logo / screenshots
-└── notebooks/ # Colab notebooks (training + retriever build)
+- **app.py** → Main Streamlit app
+- **auth.py** → User authentication
+- **chat_handler.py** → Chatbot response logic
+- **model_inference.py** → Model loading & inference
+- **preprocess_input.py** → Language detection & translation
+- **requirements.txt** → Dependencies
+- **.env.example** → Environment template
+- **.gitignore** → Ignored files
+
+### utils/ (Helper modules)
+
+- event_utils.py
+- chat_utils.py
+- history_utils.py
+- recommendation_utils.py
+- suggested_qna.py
+
+### model/
+
+- Config files (no weights included)
+
+### retriever/
+
+- FAISS retriever config (no index included)
+
+### css/
+
+- Stylesheets
+
+### images/
+
+- Logos / screenshots
+
+### notebooks/
+
+- Colab notebooks (training + retriever build)
 
 ## Installation & Setup
 
