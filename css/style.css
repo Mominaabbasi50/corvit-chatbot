@@ -1,0 +1,78 @@
+/* Chat bubbles */
+.chat-bubble-user {
+  text-align: right;
+  background-color: #a10f0f !important;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 5px 0;
+  max-width: 80%;
+  float: right;
+  clear: both;
+}
+
+.chat-bubble-bot {
+  text-align: left;
+  color: black;
+  background-color: #e0dafb !important;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 5px 0;
+  max-width: 80%;
+  float: left;
+  clear: both;
+}
+/* Change sidebar background to maroon and text to white */
+[data-testid="stSidebar"] {
+  background-color: #a10e0e !important; /* Maroon */
+  color: white !important;
+}
+
+/* Make sidebar text white */
+[data-testid="stSidebar"] * {
+  color: white !important;
+}
+/* Remove background and border of chat items in sidebar */
+[data-testid="stSidebar"] .element-container button {
+  background-color: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+  padding: 6px 0px !important;
+  margin: 0 !important;
+  color: white !important;
+  text-align: left;
+  font-weight: normal;
+}
+
+/* Change sidebar background to maroon and text to white */
+[data-testid="stSidebar"] {
+  background-color: #f2f2f2 !important; /* Maroon */
+  color: white !important;
+}
+
+/* Make all sidebar text white */
+[data-testid="stSidebar"] * {
+  color: Black !important;
+}
+
+/* Remove background and border of chat items */
+[data-testid="stSidebar"] .element-container button {
+  background-color: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+  padding: 6px 0px !important;
+  margin: 0 !important;
+  color: white !important;
+  text-align: left;
+  font-weight: normal;
+  transition: all 0.2s ease-in-out;
+}
+
+/* ✅ Add hover effect for chat items */
+[data-testid="stSidebar"] .element-container button:hover {
+  background-color: #c7c5c5 !important; /* Lighter maroon on hover */
+  font-weight: lighter !important;
+  font-family: "Times New Roman", Times, serif;
+  cursor: pointer;
+  border-radius: 5px;
+}
